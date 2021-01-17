@@ -1,0 +1,14 @@
+.flatScales input[type=text] {
+    width: 10%;
+}
+.sharpScales input[type=text] {
+    width: 10%;
+}
+#keyboardImage {
+    height: 200px;
+    margin: 0 auto;
+}
+#circleImage {
+    height: 50%;
+    margin: 0 auto;
+}
