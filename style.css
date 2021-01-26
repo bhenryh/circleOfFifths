@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: yellow;
+}
+
 .flatScales input[type=text] {
     width: 10%;
 }
@@ -11,4 +16,55 @@
 #circleImage {
     height: 50%;
     margin: 0 auto;
+}
+
+.pianoKeys {
+    position: relative;
+    top: 0;
+}
+
+.keyboardContainer {
+    width: 737px;
+    height: 201px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+}
+
+#one { order: 1; };
+#two { order: 2; };
+#three { order: 3; };
+#four { order: 4; };
+#five { order: 5; };
+#six { order: 6; };
+#seven { order: 7; };
+#eight { order: 8; };
+#nine { order: 9; };
+#ten { order: 10; };
+#eleven { order: 11; };
+#twelve { order: 12; };
+#thirteen { order: 13; };
+#fourteen { order: 14; };
+#fifteen { order: 15; };
+#sixteen { order: 16; };
+#seventeen { order: 17; };
+#eighteen { order: 18; };
+#nineteen { order: 19; };
+#twenty { order: 20; };
+#twentyOne { order: 21; };
+
+/* #keyboardImage {
+    border: 5px solid yellow;
+} */
+
+.white {
+    width: 50px;
+    height: 197px;
+    background-color: blueviolet;
+}
+
+.black {
+    width: 38px;
+    height: 118px;
+    background-color: chartreuse;
 }
