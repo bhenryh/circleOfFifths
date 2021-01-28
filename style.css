@@ -19,19 +19,19 @@ body {
 }
 
 .pianoKeys {
-    position: relative;
+    position: absolute;
     top: 0;
 }
 
 .keyboardContainer {
-    width: 737px;
-    height: 201px;
-    /* position: absolute; */
-    display: flex;
-    flex-direction: row;
+    width: 631px;
+    height: 181px;
+    position: relative;
+    /* display: flex;
+    flex-direction: row; */
 }
 
-#one { order: 1; };
+/* #one { order: 1; };
 #two { order: 2; };
 #three { order: 3; };
 #four { order: 4; };
@@ -44,14 +44,17 @@ body {
 #eleven { order: 11; };
 #twelve { order: 12; };
 #thirteen { order: 13; };
-#fourteen { order: 14; };
-#fifteen { order: 15; };
+#fourteen { order: 14; }; */
+/* #fifteen { order: 15; };
 #sixteen { order: 16; };
 #seventeen { order: 17; };
 #eighteen { order: 18; };
 #nineteen { order: 19; };
 #twenty { order: 20; };
 #twentyOne { order: 21; };
+#twentyTwo { order: 22; };
+#twentyThree { order: 23; };
+#twentyFour { order: 24; }; */
 
 /* #keyboardImage {
     border: 5px solid yellow;
