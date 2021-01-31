@@ -3,71 +3,123 @@ body {
     color: yellow;
 }
 
+h1 {
+    text-align: center;
+    font-size: 50pt;
+    letter-spacing: 5pt;
+    /* text-decoration: underline; */
+}
+
+.keyOC {
+    text-align: center;
+    font-size: 40pt;
+    letter-spacing: 4pt;
+}
+
+.fsTitle {
+    text-align: center;
+    font-size: 30pt;
+    letter-spacing: 1.5pt;
+}
+
+.ssTitle {
+    text-align: center;
+    font-size: 30pt;
+    letter-spacing: 1.5pt;
+}
+
 .flatScales input[type=text] {
     width: 10%;
 }
+
 .sharpScales input[type=text] {
     width: 10%;
 }
+
 #keyboardImage {
     height: 200px;
     margin: 0 auto;
+    /* border: 5px solid yellow; */
 }
+
 #circleImage {
-    height: 50%;
-    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+    /* margin: 0 auto; */
 }
 
 .pianoKeys {
+    top: 0;
+}
+
+.whiteKeys {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     position: absolute;
     top: 0;
 }
 
-.keyboardContainer {
-    width: 631px;
-    height: 181px;
-    position: relative;
-    /* display: flex;
-    flex-direction: row; */
+.blackKeys {
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 
-/* #one { order: 1; };
-#two { order: 2; };
-#three { order: 3; };
-#four { order: 4; };
-#five { order: 5; };
-#six { order: 6; };
-#seven { order: 7; };
-#eight { order: 8; };
-#nine { order: 9; };
-#ten { order: 10; };
-#eleven { order: 11; };
-#twelve { order: 12; };
-#thirteen { order: 13; };
-#fourteen { order: 14; }; */
-/* #fifteen { order: 15; };
-#sixteen { order: 16; };
-#seventeen { order: 17; };
-#eighteen { order: 18; };
-#nineteen { order: 19; };
-#twenty { order: 20; };
-#twentyOne { order: 21; };
-#twentyTwo { order: 22; };
-#twentyThree { order: 23; };
-#twentyFour { order: 24; }; */
+.keyboardCol {
+    position: relative;  
+}
 
-/* #keyboardImage {
-    border: 5px solid yellow;
-} */
+.keyboardContainer {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
 
 .white {
-    width: 50px;
-    height: 197px;
-    background-color: blueviolet;
+    width: 51px;
+    height: 200px;
+    background-color: rgba(138, 43, 226, .5);
 }
 
 .black {
-    width: 38px;
-    height: 118px;
-    background-color: chartreuse;
+    width: 36px;
+    height: 121px;
+    background-color: rgba(127, 255, 0, .5);
+    position: absolute;
+    top: 0
+}
+
+#fifteen {
+    left: 32px 
+}
+#sixteen { 
+    left: 82px 
+}
+#seventeen { 
+    left: 182px 
+}
+#eighteen {
+    left: 232px 
+}
+#nineteen {
+    left: 282px 
+}
+#twenty {
+    left: 382px 
+}
+#twentyOne {
+    left: 432px 
+}
+#twentyTwo {
+    left: 532px 
+}
+#twentyThree {
+    left: 582px 
+}
+#twentyFour {
+    left: 632px 
 }
