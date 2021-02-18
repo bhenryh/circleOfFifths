@@ -10,6 +10,44 @@ h1 {
     /* text-decoration: underline; */
 }
 
+.circle {
+    width: 550px;
+    height: 550px;
+    /* background-color: chartreuse; */
+    border-radius: 50%;
+    border: 5px solid yellow;
+    position: relative;
+}
+
+.circle .circle-letter {
+    --rotation: 0;
+    color: yellow;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    transform: rotate(var(--rotation));
+}
+
+.circle .letG { --rotation: 30deg; }
+.circle .letD { --rotation: 60deg; }
+.circle .letA { --rotation: 90deg; }
+.circle .letE { --rotation: 120deg; }
+.circle .letB { --rotation: 136deg; }
+.circle .letCf { --rotation: 150deg; }
+.circle .letFs { --rotation: 170deg; }
+.circle .letGf { --rotation: 186deg; }
+.circle .letCs { --rotation: 204deg; }
+.circle .letDf { --rotation: 221deg; }
+.circle .letAf { --rotation: 240deg; }
+.circle .letEf { --rotation: 270deg; }
+.circle .letBf { --rotation: 300deg; }
+.circle .letF { --rotation: 330deg; }
+
+
+
+
 .keyOC {
     text-align: center;
     font-size: 40pt;
