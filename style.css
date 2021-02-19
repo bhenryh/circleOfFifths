@@ -19,6 +19,15 @@ h1 {
     position: relative;
 }
 
+.mini-circle {
+    width: 70%;
+    height: 70%;
+    /* background-color: chartreuse; */
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+
 .circle .circle-letter {
     --rotation: 0;
     color: yellow;
@@ -30,21 +39,126 @@ h1 {
     transform: rotate(var(--rotation));
 }
 
+.circle .circle-letterB {
+    --rotation: 0;
+    color: yellow;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    transform: rotate(var(--rotation));
+}
+.circle .circle-letter input {
+    position: relative;
+    transform: rotate(var(--rotation));
+    height: 40px;
+    width: 40px;
+}
+
+.circle .circle-letterB input {
+    position: relative;
+    transform: rotate(var(--rotation));
+    height: 40px;
+    width: 40px;
+}
+
+.mini-circle .circle-number {
+    --rotation: 0;
+    color: yellow;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    transform: rotate(var(--rotation));
+}
+
+.mini-circle .circle-numberB {
+    --rotation: 0;
+    color: yellow;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    transform: rotate(var(--rotation));
+}
+
+.mini-circle .circle-number input {
+    position: relative;
+    transform: rotate(var(--rotation));
+    height: 25px;
+    width: 25px;
+}
+
+.mini-circle .circle-numberB input {
+    position: relative;
+    transform: rotate(var(--rotation));
+    height: 25px;
+    width: 25px;
+}
+
+
 .circle .letG { --rotation: 30deg; }
 .circle .letD { --rotation: 60deg; }
 .circle .letA { --rotation: 90deg; }
 .circle .letE { --rotation: 120deg; }
-.circle .letB { --rotation: 136deg; }
-.circle .letCf { --rotation: 150deg; }
-.circle .letFs { --rotation: 170deg; }
-.circle .letGf { --rotation: 186deg; }
-.circle .letCs { --rotation: 204deg; }
-.circle .letDf { --rotation: 221deg; }
+.circle .letB { --rotation: 140deg; }
+.circle .letCf { --rotation: 152deg; }
+.circle .letFs { --rotation: 175deg; }
+.circle .letGf { --rotation: 185deg; }
+.circle .letCs { --rotation: 206deg; }
+.circle .letDf { --rotation: 218deg; }
 .circle .letAf { --rotation: 240deg; }
 .circle .letEf { --rotation: 270deg; }
 .circle .letBf { --rotation: 300deg; }
 .circle .letF { --rotation: 330deg; }
 
+.circle .letG input { --rotation: -30deg; }
+.circle .letD input { --rotation: -60deg; }
+.circle .letA input { --rotation: -90deg; }
+.circle .letE input { --rotation: -120deg; }
+.circle .letB input { --rotation: -140deg; }
+.circle .letCf input { --rotation: -152deg; }
+.circle .letFs input { --rotation: -175deg; }
+.circle .letGf input { --rotation: -185deg; }
+.circle .letCs input { --rotation: -206deg; }
+.circle .letDf input { --rotation: -218deg; }
+.circle .letAf input { --rotation: -240deg; }
+.circle .letEf input { --rotation: -270deg; }
+.circle .letBf input { --rotation: -300deg; }
+.circle .letF input { --rotation: -330deg; }
+
+.circle .mini-circle .num1s { --rotation: 30deg; }
+.circle .mini-circle .num2s { --rotation: 60deg; }
+.circle .mini-circle .num3s { --rotation: 90deg; }
+.circle .mini-circle .num4s { --rotation: 120deg; }
+.circle .mini-circle .num5s { --rotation: 140deg; }
+.circle .mini-circle .num7f { --rotation: 152deg; }
+.circle .mini-circle .num6s { --rotation: 175deg; }
+.circle .mini-circle .num6f { --rotation: 185deg; }
+.circle .mini-circle .num7s { --rotation: 206deg; }
+.circle .mini-circle .num5f { --rotation: 218deg; }
+.circle .mini-circle .num4f { --rotation: 240deg; }
+.circle .mini-circle .num3f { --rotation: 270deg; }
+.circle .mini-circle .num2f { --rotation: 300deg; }
+.circle .mini-circle .num1f { --rotation: 330deg; }
+
+.circle .mini-circle .num1s input { --rotation: -30deg; }
+.circle .mini-circle .num2s input { --rotation: -60deg; }
+.circle .mini-circle .num3s input { --rotation: -90deg; }
+.circle .mini-circle .num4s input { --rotation: -120deg; }
+.circle .mini-circle .num5s input { --rotation: -140deg; }
+.circle .mini-circle .num7f input { --rotation: -152deg; }
+.circle .mini-circle .num6s input { --rotation: -175deg; }
+.circle .mini-circle .num6f input { --rotation: -185deg; }
+.circle .mini-circle .num7s input { --rotation: -206deg; }
+.circle .mini-circle .num5f input { --rotation: -218deg; }
+.circle .mini-circle .num4f input { --rotation: -240deg; }
+.circle .mini-circle .num3f input { --rotation: -270deg; }
+.circle .mini-circle .num2f input { --rotation: -300deg; }
+.circle .mini-circle .num1f input { --rotation: -330deg; }
 
 
 
@@ -60,10 +174,33 @@ h1 {
     letter-spacing: 1.5pt;
 }
 
+.O-FTitle {
+    text-align: center;
+    font-size: 20pt;
+    letter-spacing: 1.5pt;
+}
+
+.orderFlats input {
+    justify-content: center;
+    width: 10%;
+    height: 70%;
+}
+
 .ssTitle {
     text-align: center;
     font-size: 30pt;
     letter-spacing: 1.5pt;
+}
+
+.O-STitle {
+    text-align: center;
+    font-size: 20pt;
+    letter-spacing: 1.5pt;
+}
+
+.orderSharps input {
+    width: 10%;
+    height: 70%;
 }
 
 .flatScales input[type=text] {
@@ -74,20 +211,7 @@ h1 {
     width: 10%;
 }
 
-#keyboardImage {
-    height: 200px;
-    margin: 0 auto;
-    /* border: 5px solid yellow; */
-}
-
-#circleImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 45%;
-    /* margin: 0 auto; */
-}
-
+/* Piano keyboard */
 .pianoKeys {
     top: 0;
 }
@@ -121,6 +245,7 @@ h1 {
     top: 0;
 }
 
+/* Piano key button styling: */
 .white {
     width: 51px;
     height: 200px;
@@ -135,6 +260,7 @@ h1 {
     top: 0
 }
 
+/* Positioning of black piano key buttons: */
 #fifteen {
     left: 32px 
 }

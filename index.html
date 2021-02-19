@@ -17,7 +17,7 @@
     <h1>The Circle of Fifths</h1>
     <div class="container-fluid">
         <div class="row">
-            <div class= "col-3"></div>
+            <div class="col-3"></div>
             <div class="col-6 keyboardCol">
                 <!-- <img src="./assets/keyboardImage.png" alt="" id="keyboardImage"> -->
                 <div class="keyboardContainer">
@@ -48,10 +48,10 @@
                         <button class="pianoKeys black" id="twentyTwo" data-pitch="F#" data-alt="Gb"></button>
                         <button class="pianoKeys black" id="twentyThree" data-pitch="G#" data-alt="Ab"></button>
                         <button class="pianoKeys black" id="twentyFour" data-pitch="A#" data-alt="Bb"></button>
-                    </div>             
+                    </div>
                 </div>
             </div>
-            <div class= "col-3"></div>
+            <div class="col-3"></div>
         </div>
         <div class="row">
             <div class="col-4 fsTitle">Flat Scales</div>
@@ -130,25 +130,53 @@
                     <input type="text" id="fsd77">
                     <input type="text" id="fsd78">
                 </div>
+                <div class="row O-FTitle">The Order of Flats</div>
+                <div class="orderFlats">
+                    <input type="text" id="O-F1">
+                    <input type="text" id="O-F2">
+                    <input type="text" id="O-F3">
+                    <input type="text" id="O-F4">
+                    <input type="text" id="O-F5">
+                    <input type="text" id="O-F6">
+                    <input type="text" id="O-F7">
+                </div>
             </div>
             <div class="col-4">
                 <!-- <img src="./assets/circleImage1.png" alt="" id="circleImage"> -->
                 <div class="circle">
-                    <div class="circle-letter letC">C</div>
-                    <div class="circle-letter letG">G</div>
-                    <div class="circle-letter letD">D</div>
-                    <div class="circle-letter letA">A</div>
-                    <div class="circle-letter letE">E</div>
-                    <div class="circle-letter letB">B</div>
-                    <div class="circle-letter letCf">Cb</div>
-                    <div class="circle-letter letFs">F#</div>
-                    <div class="circle-letter letGf">Gb</div>
-                    <div class="circle-letter letCs">C#</div>
-                    <div class="circle-letter letDf">Db</div>
-                    <div class="circle-letter letAf">Ab</div>
-                    <div class="circle-letter letEf">Eb</div>
-                    <div class="circle-letter letBf">Bb</div>
-                    <div class="circle-letter letF">F</div>
+                    <div class="circle-letter letC"><input type="text" id="cl12"></div>
+                    <div class="circle-letter letG"><input type="text" id="cl1"></div>
+                    <div class="circle-letter letD"><input type="text" id="cl2"></div>
+                    <div class="circle-letter letA"><input type="text" id="cl3"></div>
+                    <div class="circle-letter letE"><input type="text" id="cl4"></div>
+                    <div class="circle-letterB letB"><input type="text" id="cl5"></div>
+                    <div class="circle-letterB letCf"><input type="text" id="cl55"></div>
+                    <div class="circle-letterB letFs"><input type="text" id="cl6"></div>
+                    <div class="circle-letterB letGf"><input type="text" id="cl65"></div>
+                    <div class="circle-letterB letCs"><input type="text" id="cl7"></div>
+                    <div class="circle-letterB letDf"><input type="text" id="cl75"></div>
+                    <div class="circle-letter letAf"><input type="text" id="cl8"></div>
+                    <div class="circle-letter letEf"><input type="text" id="cl9"></div>
+                    <div class="circle-letter letBf"><input type="text" id="cl10"></div>
+                    <div class="circle-letter letF"><input type="text" id="cl11"></div>
+
+                    <div class="mini-circle">
+                        <div class="circle-number num0"><input type="text" id="cn12"></div>
+                        <div class="circle-number num1s"><input type="text" id="cn1"></div>
+                        <div class="circle-number num2s"><input type="text" id="cn2"></div>
+                        <div class="circle-number num3s"><input type="text" id="cn3"></div>
+                        <div class="circle-number num4s"><input type="text" id="cn4"></div>
+                        <div class="circle-numberB num5s"><input type="text" id="cn5"></div>
+                        <div class="circle-numberB num7f"><input type="text" id="cn55"></div>
+                        <div class="circle-numberB num6s"><input type="text" id="cn6"></div>
+                        <div class="circle-numberB num6f"><input type="text" id="cn65"></div>
+                        <div class="circle-numberB num7s"><input type="text" id="cn7"></div>
+                        <div class="circle-numberB num5f"><input type="text" id="cn75"></div>
+                        <div class="circle-number num4f"><input type="text" id="cn8"></div>
+                        <div class="circle-number num3f"><input type="text" id="cn9"></div>
+                        <div class="circle-number num2f"><input type="text" id="cn10"></div>
+                        <div class="circle-number num1f"><input type="text" id="cn11"></div>
+                    </div>
                 </div>
             </div>
             <div class="col-4">
@@ -222,11 +250,21 @@
                     <input type="text" id="ssd77">
                     <input type="text" id="ssd78">
                 </div>
+                <div class="row O-STitle">The Order of Sharps</div>
+                <div class="orderSharps">
+                    <input type="text" id="O-S1">
+                    <input type="text" id="O-S2">
+                    <input type="text" id="O-S3">
+                    <input type="text" id="O-S4">
+                    <input type="text" id="O-S5">
+                    <input type="text" id="O-S6">
+                    <input type="text" id="O-S7">
+                </div>
             </div>
         </div>
     </div>
 
-    
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
