@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: orange;
+    color: rgb(78, 190, 255);
 }
 
 h1 {
@@ -56,8 +56,9 @@ h1 {
     height: 40px;
     width: 40px;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 .circle .circle-letterB input {
@@ -66,8 +67,9 @@ h1 {
     height: 40px;
     width: 40px;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 .mini-circle .circle-number {
@@ -99,8 +101,9 @@ h1 {
     height: 29px;
     width: 29px;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 .mini-circle .circle-numberB input {
@@ -109,8 +112,9 @@ h1 {
     height: 29px;
     width: 29px;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 
@@ -199,8 +203,9 @@ h1 {
     width: 10%;
     height: 70%;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 .ssTitle {
@@ -219,22 +224,25 @@ h1 {
     width: 10%;
     height: 70%;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 .flatScales input[type=text] {
     width: 10%;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 .sharpScales input[type=text] {
     width: 10%;
     background: none;
-    border: none;
-    border-bottom: 2px solid yellow;
+    /* border: none; */
+    /* border-bottom: 2px solid yellow; */
+    color: chartreuse;
 }
 
 /* Piano keyboard */
