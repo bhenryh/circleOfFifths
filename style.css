@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: yellow;
+    color: orange;
 }
 
 h1 {
@@ -37,6 +37,7 @@ h1 {
     font-size: 50px;
     position: absolute;
     transform: rotate(var(--rotation));
+    
 }
 
 .circle .circle-letterB {
@@ -54,6 +55,9 @@ h1 {
     transform: rotate(var(--rotation));
     height: 40px;
     width: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 .circle .circle-letterB input {
@@ -61,6 +65,9 @@ h1 {
     transform: rotate(var(--rotation));
     height: 40px;
     width: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 .mini-circle .circle-number {
@@ -83,20 +90,27 @@ h1 {
     font-size: 20px;
     position: absolute;
     transform: rotate(var(--rotation));
+    
 }
 
 .mini-circle .circle-number input {
     position: relative;
     transform: rotate(var(--rotation));
-    height: 25px;
-    width: 25px;
+    height: 29px;
+    width: 29px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 .mini-circle .circle-numberB input {
     position: relative;
     transform: rotate(var(--rotation));
-    height: 25px;
-    width: 25px;
+    height: 29px;
+    width: 29px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 
@@ -104,8 +118,8 @@ h1 {
 .circle .letD { --rotation: 60deg; }
 .circle .letA { --rotation: 90deg; }
 .circle .letE { --rotation: 120deg; }
-.circle .letB { --rotation: 140deg; }
-.circle .letCf { --rotation: 152deg; }
+.circle .letB { --rotation: 142deg; }
+.circle .letCf { --rotation: 154deg; }
 .circle .letFs { --rotation: 175deg; }
 .circle .letGf { --rotation: 185deg; }
 .circle .letCs { --rotation: 206deg; }
@@ -119,8 +133,8 @@ h1 {
 .circle .letD input { --rotation: -60deg; }
 .circle .letA input { --rotation: -90deg; }
 .circle .letE input { --rotation: -120deg; }
-.circle .letB input { --rotation: -140deg; }
-.circle .letCf input { --rotation: -152deg; }
+.circle .letB input { --rotation: -142deg; }
+.circle .letCf input { --rotation: -154deg; }
 .circle .letFs input { --rotation: -175deg; }
 .circle .letGf input { --rotation: -185deg; }
 .circle .letCs input { --rotation: -206deg; }
@@ -134,8 +148,8 @@ h1 {
 .circle .mini-circle .num2s { --rotation: 60deg; }
 .circle .mini-circle .num3s { --rotation: 90deg; }
 .circle .mini-circle .num4s { --rotation: 120deg; }
-.circle .mini-circle .num5s { --rotation: 140deg; }
-.circle .mini-circle .num7f { --rotation: 152deg; }
+.circle .mini-circle .num5s { --rotation: 142deg; }
+.circle .mini-circle .num7f { --rotation: 154deg; }
 .circle .mini-circle .num6s { --rotation: 175deg; }
 .circle .mini-circle .num6f { --rotation: 185deg; }
 .circle .mini-circle .num7s { --rotation: 206deg; }
@@ -149,8 +163,8 @@ h1 {
 .circle .mini-circle .num2s input { --rotation: -60deg; }
 .circle .mini-circle .num3s input { --rotation: -90deg; }
 .circle .mini-circle .num4s input { --rotation: -120deg; }
-.circle .mini-circle .num5s input { --rotation: -140deg; }
-.circle .mini-circle .num7f input { --rotation: -152deg; }
+.circle .mini-circle .num5s input { --rotation: -142deg; }
+.circle .mini-circle .num7f input { --rotation: -154deg; }
 .circle .mini-circle .num6s input { --rotation: -175deg; }
 .circle .mini-circle .num6f input { --rotation: -185deg; }
 .circle .mini-circle .num7s input { --rotation: -206deg; }
@@ -184,6 +198,9 @@ h1 {
     justify-content: center;
     width: 10%;
     height: 70%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 .ssTitle {
@@ -201,14 +218,23 @@ h1 {
 .orderSharps input {
     width: 10%;
     height: 70%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 .flatScales input[type=text] {
     width: 10%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 .sharpScales input[type=text] {
     width: 10%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow;
 }
 
 /* Piano keyboard */
@@ -241,8 +267,8 @@ h1 {
 .keyboardContainer {
     width: 700px;
     height: 200px;
-    position: absolute;
-    top: 0;
+    position: relative;
+    margin: 0 auto;
 }
 
 /* Piano key button styling: */
