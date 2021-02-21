@@ -13,6 +13,7 @@ h1 {
 .circle {
     width: 550px;
     height: 550px;
+    justify-content: center;
     /* background-color: chartreuse; */
     border-radius: 50%;
     border: 5px solid yellow;
@@ -193,12 +194,14 @@ h1 {
 }
 
 .O-FTitle {
+    margin-top: 25%;
     text-align: center;
     font-size: 20pt;
     letter-spacing: 1.5pt;
 }
 
 .orderFlats input {
+    margin-top: 5%;
     justify-content: center;
     width: 10%;
     height: 70%;
@@ -215,12 +218,14 @@ h1 {
 }
 
 .O-STitle {
+    margin-top: 25%;
     text-align: center;
     font-size: 20pt;
     letter-spacing: 1.5pt;
 }
 
 .orderSharps input {
+    margin-top: 5%;
     width: 10%;
     height: 70%;
     background: none;
@@ -278,6 +283,20 @@ h1 {
     position: relative;
     margin: 0 auto;
 }
+
+.modal-dialog {
+    width: 200px;
+}
+
+.modal-title {
+    color: black;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+
 
 /* Piano key button styling: */
 .white {

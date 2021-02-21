@@ -54,12 +54,12 @@
             <div class="col-3"></div>
         </div>
         <div class="row">
-            <div class="col-4 fsTitle">Flat Scales</div>
-            <div class="col-4 keyOC">C D E F G A B C </div>
-            <div class="col-4 ssTitle">Sharp Scales</div>
+            <div class="col-3 fsTitle">Flat Scales</div>
+            <div class="col-6 keyOC">C D E F G A B C </div>
+            <div class="col-3 ssTitle">Sharp Scales</div>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-3">
                 <div class="flatScales">
                     <input type="text" id="fsd11">
                     <input type="text" id="fsd12">
@@ -141,10 +141,12 @@
                     <input type="text" id="O-F7">
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-6">
                 <!-- <img src="./assets/circleImage1.png" alt="" id="circleImage"> -->
                 <div class="circle">
-                    <div class="circle-letter letC"><input type="text" id="cl12"></div>
+                    <div class="circle-letter letC">
+                        <div>C</div>
+                    </div>
                     <div class="circle-letter letG"><input type="text" id="cl1"></div>
                     <div class="circle-letter letD"><input type="text" id="cl2"></div>
                     <div class="circle-letter letA"><input type="text" id="cl3"></div>
@@ -161,7 +163,9 @@
                     <div class="circle-letter letF"><input type="text" id="cl11"></div>
 
                     <div class="mini-circle">
-                        <div class="circle-number num0"><input type="text" id="cn12"></div>
+                        <div class="circle-number num0">
+                            <div>0b/0#</div>
+                        </div>
                         <div class="circle-number num1s"><input type="text" id="cn1"></div>
                         <div class="circle-number num2s"><input type="text" id="cn2"></div>
                         <div class="circle-number num3s"><input type="text" id="cn3"></div>
@@ -179,7 +183,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <div class="sharpScales">
                     <input type="text" id="ssd11">
                     <input type="text" id="ssd12">
@@ -259,6 +263,22 @@
                     <input type="text" id="O-S5">
                     <input type="text" id="O-S6">
                     <input type="text" id="O-S7">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="sharpFlatChoice" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Choose one.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="flatButton"></button>
+                    <button type="button" class="btn btn-danger" id="sharpButton"></button>               
                 </div>
             </div>
         </div>
